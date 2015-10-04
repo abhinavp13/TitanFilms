@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/above_blue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "0.9"
+        android:transitionName="search_bar"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:elevation="4dp"
+        android:translationZ="8dp"
+        android:outlineProvider="bounds"
+        android:hardwareAccelerated="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize = "30sp"
+                android:gravity="center"
+                android:text = "Titan Films"
+                android:textColor="@android:color/white"
+                android:id="@+id/textView2"
+                android:layout_above="@+id/relativeLayout2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/border_search"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/relativeLayout2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_search_black_24dp"
+                    android:paddingLeft="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/imageView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@android:color/black"
+                    android:text="SEARCH BY MOVIE NAME"
+                    android:gravity="center"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:background="@android:color/white">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_gravity="center">
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/hexagon_size"
+                android:layout_height="@dimen/hexagon_size"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/relativeLayout4">
+
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:src="@mipmap/most_popular"
+                    android:id="@+id/imageView1"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/hexagon_size"
+                android:layout_height="@dimen/hexagon_size"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/relativeLayout4">
+
+                <ImageView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:src="@mipmap/highest_rated"
+                    android:id="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="@dimen/hexagon_size"
+                android:layout_height="@dimen/hexagon_size"
+                android:id="@+id/imageView3"
+                android:src="@mipmap/my_favourite"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/relativeLayout4" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

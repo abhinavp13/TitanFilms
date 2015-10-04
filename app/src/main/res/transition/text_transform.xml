@@ -1,0 +1,7 @@
+<!-- res/transition/text_transform -->
+<transitionSet
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500">
+    <slide/>
+    <arcMotion/>
+</transitionSet>

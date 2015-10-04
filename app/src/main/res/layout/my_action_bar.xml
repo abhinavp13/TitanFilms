@@ -1,0 +1,67 @@
+<!-- Action Bar -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="@color/blue"
+    android:transitionName="actionBar"
+    android:elevation="2dp"
+    android:translationZ="6dp"
+    android:outlineProvider="bounds"
+    android:hardwareAccelerated="true"
+    android:layout_alignParentTop="true"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:translationZ="10dp"
+        android:transitionName="titleView"
+        android:padding="19dp"
+        android:textColor="@android:color/white"
+        android:text="@string/app_title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <RelativeLayout
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:transformPivotY="32dp"
+        android:transformPivotX="32dp"
+        android:gravity="center"
+        android:id="@+id/menu_relative_view_new"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/option_menu_24"
+            />
+
+        <com.andexert.library.RippleView
+            xmlns:ripple="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            ripple:rv_rippleDuration="75"
+            ripple:rv_centered = "true"
+            ripple:rv_zoom="true"
+            >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:onClick="changeSelection"
+                />
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

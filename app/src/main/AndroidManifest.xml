@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nanodegree.abhinav.titanfilms" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:name=".application.TitanFilmsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".mainactivity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mostpopular.activities.MostPopularMoviesGridActivity"
+            android:label="@string/title_activity_most_popular_movies_grid"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".mostpopular.activities.MostPopularMoviesDetailActivity"
+            android:label="@string/title_activity_most_popular_movies_detail"
+            android:theme="@style/AppThemeForDetail" >
+        </activity>
+        <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:process=":error_report"
+            android:theme="@style/Theme.Dialog" />
+        <activity
+            android:name=".selectionchange.SelectionChangeActivity"
+            android:label="@string/title_activity_selection_change"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".highestrated.activities.HighestRatedMoviesDetailActivity"
+            android:label="@string/title_activity_highest_rated_movies_detail"
+            android:theme="@style/AppThemeForDetail" >
+        </activity>
+        <activity
+            android:name=".highestrated.activities.HighestRatedMoviesGridActivity"
+            android:label="@string/title_activity_highest_rated_movies_grid"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".favourite.activities.FavouriteMoviesDetailActivity"
+            android:label="@string/title_activity_favourite_movies_detail"
+            android:theme="@style/AppThemeForDetail" >
+        </activity>
+        <activity
+            android:name=".favourite.activities.FavouriteMoviesGridActivity"
+            android:label="@string/title_activity_favourite_movies_grid"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".search.activities.SearchGridActivity"
+            android:label="@string/title_activity_search_grid"
+            android:windowSoftInputMode="stateVisible"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".search.activities.SearchMovieDetail"
+            android:label="@string/title_activity_search_movie_detail"
+            android:theme="@style/AppThemeForDetail">
+        </activity>
+
+        <!-- Content Provider -->
+        <provider
+            android:name=".favourite.contentprovider.FavouriteContentProvider"
+            android:authorities="com.nanodegree.abhinav.titanfilms.favourite.contentprovider" >
+        </provider>
+
+        <!-- BroadCast Receiver -->
+        <receiver android:name=".tfutils.NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

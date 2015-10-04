@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/gson-2.3.1-db347212bcda2648244d4b24078ad368b698503a.jar" />
+    </item>
+    <item
+        jar="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/classes-5efeefc71cc2939064dd3f5a19a15e52727d4b06.jar" />
+    </item>
+    <item
+        jar="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/classes-f7cb2798cda6f0c1c61f0fbb3319f78778573a89.jar" />
+    </item>
+    <item
+        jar="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ca504182198db4a0f81779ca3fe391374c8cb66a">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/classes-cabe0f73600bd8a9888b285728d937eb30024225.jar" />
+    </item>
+    <item
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-d1acf46021f20f049c52e8e8d2eef24d273c7976.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-f07471cc8daabba9b33b6c2492a169834e3c6749.jar" />
+    </item>
+    <item
+        jar="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/exploded-aar/pl.tajchert/waitingdots/0.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cd83623b203ce6e77f4f1c7e38b295df89e0a6f3">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/classes-f3bb8097770f32a1666f44c3551146bc21dc3d97.jar" />
+    </item>
+    <item
+        jar="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/classes-894801e29680c2d42584893542b8abaa6a74565b.jar" />
+    </item>
+    <item
+        jar="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-d4e588ccb7c2b128764643b72445d6afc8397f66.jar" />
+    </item>
+    <item
+        jar="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/exploded-aar/com.github.jlmd/AnimatedCircleLoadingView/1.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7b253f2ef0ce8a038c810f9b3ab278a0cddadb87">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/classes-32aabd472f850b9e8e1a732c3ba50252a368cfed.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/ch.acra/acra/4.6.2/b99297996579b72496c9f81b0c12d8404c74e618/acra-4.6.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99297996579b72496c9f81b0c12d8404c74e618">
+        <dex dex="/home/rp/Desktop/Nano_Workspace/TitanFilms2/app/build/intermediates/pre-dexed/debug/acra-4.6.2-062865843f1d95547172c59c4d28b2842871b180.jar" />
+    </item>
+
+</items>

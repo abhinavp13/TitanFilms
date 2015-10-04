@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:elevation="2dp"
+    android:translationZ="6dp"
+    android:outlineProvider="bounds"
+    android:hardwareAccelerated="true"
+    android:background="@drawable/border"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:id="@+id/loading_text_view"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:background="@mipmap/tf"
+            />
+
+        <RelativeLayout
+            android:id="@+id/movie_image_view_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:transitionName="moviePoster">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:layout_centerInParent="true"
+                android:transitionName="moviePoster"
+                android:background="@mipmap/tf"/>
+
+            <ImageView
+                android:id="@+id/movie_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:layout_centerInParent="true"
+                android:transitionName="moviePoster"
+                android:background="@android:color/transparent"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/movie_text_view"
+            android:layout_below="@+id/movie_image_view_cover"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:background="@android:color/white"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:text="Movie ..."/>
+
+        <View
+            android:id="@+id/selected_tile_bar"
+            android:layout_below="@+id/movie_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:background="@android:color/white"/>
+
+    </RelativeLayout>
+
+
+    <com.andexert.library.RippleView
+        xmlns:ripple="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="20dp"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        ripple:rv_rippleDuration="75"
+        ripple:rv_centered = "true"
+        android:layout_alignBottom="@+id/backdrop_image_view"
+        ripple:rv_zoom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:id="@+id/trailer_play_view"
+            android:transitionName="trailer_play"
+            android:background="@drawable/slice"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginBottom="2dp"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_on_tile"
+                    />
+
+                <View
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:background="@drawable/play_icon_trial"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </com.andexert.library.RippleView>
+
+</RelativeLayout>

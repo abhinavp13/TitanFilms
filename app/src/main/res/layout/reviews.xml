@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/author1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="Micheal Shaun"
+        android:visibility="gone"
+        />
+
+    <View
+        android:id="@+id/gap1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="gone"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/author2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:id="@+id/gap2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="gone"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/author3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/gap3"
+        android:layout_height="5dp"
+        android:visibility="gone"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content3"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/author4"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/gap4"
+        android:visibility="gone"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content4"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/author5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/gap5"
+        android:visibility="gone"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content5"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/author6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="gone"
+        android:id="@+id/gap6"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/author7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="gone"
+        android:id="@+id/gap7"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content7"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/author8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/gap8"
+        android:visibility="gone"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content8"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/author9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/gap9"
+        android:visibility="gone"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content9"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/author10"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:text="Micheal Shaun"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="gone"
+        android:id="@+id/gap10"
+        android:background="#00000000" />
+
+    <TextView
+        android:id="@+id/content10"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text =  "The movie is not at all good , Things are not more like it
+We need to do something...
+Holly wood needs to improve !!!
+We will not stay calm !
+Attack !!!!!
+        "/>
+
+
+
+</LinearLayout>

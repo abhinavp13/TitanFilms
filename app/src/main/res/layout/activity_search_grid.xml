@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.nanodegree.abhinav.titanfilms.search.activities.SearchGridActivity">
+
+
+    <LinearLayout
+        android:id="@+id/blue_background_1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/blue"
+        android:orientation="vertical"
+        android:transitionName="search_bar"
+        android:elevation="4dp"
+        android:translationZ="8dp"
+        android:outlineProvider="bounds"
+        android:hardwareAccelerated="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/border_search"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/relativeLayout2_1">
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/imageView_1"
+                    android:gravity="center"
+                    android:onClick="backClicked">
+
+                    <ImageView
+                        android:id="@+id/back_image"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/back_black_icon"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:onClick="backClicked"/>
+
+                        <com.andexert.library.RippleView
+                            xmlns:ripple="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="64dp"
+                            ripple:rv_rippleDuration="50"
+                            ripple:rv_centered = "true"
+                            ripple:rv_zoom="true"
+                            >
+
+                            <View
+                                android:id="@+id/back_clicked_cover"
+                                android:layout_width="match_parent"
+                                android:layout_height="64dp"
+                                android:onClick="backClicked"
+                                />
+
+                        </com.andexert.library.RippleView>
+
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/search_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_toRightOf="@+id/imageView_1"
+                    android:layout_toLeftOf="@+id/search_image_view"
+                    android:hint="Enter Movie Name"
+                    android:singleLine="true"
+                    android:lines="1"
+                    android:background="#00000000"
+                    android:focusable="true"
+                    android:textColorHint="#cccccc"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/ic_search_black_24dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/search_image_view"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <!-- Loading Dots Text View (like google hangouts) -->
+    <pl.tajchert.sample.DotsTextView
+        xmlns:dots="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/dots_view"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_below="@+id/blue_background_1"
+        android:textColor="@color/blue"
+        android:layout_centerInParent="true"
+        dots:autoplay="true"
+        dots:period="1000"/>
+
+    <TextView
+        android:id="@+id/nothing_found_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/dots_view"
+        android:visibility="invisible"
+        android:textSize="16sp"
+        android:textColor="@color/blue"
+        android:textStyle="italic"
+        android:text="Nothing Found"/>
+
+
+    <!-- GridView -->
+    <include
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/blue_background_1"
+        layout="@layout/grid_view"/>
+
+
+</RelativeLayout>

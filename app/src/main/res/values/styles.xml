@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+
+    </style>
+
+    <style name="AppThemeForDetail" parent="android:Theme.Material.Light.NoActionBar">
+
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/image_transform</item>
+        <item name="android:windowSharedElementExitTransition">@transition/image_transform</item>
+
+    </style>
+
+    <!-- Required for ACRA  -->
+    <style name="Theme.Dialog" parent="@android:style/Theme.Dialog" />
+
+</resources>

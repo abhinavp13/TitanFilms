@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Half Blue and Half White (with app title) -->
+    <LinearLayout
+        android:id="@+id/half_blue_half_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:elevation="2dp"
+            android:translationZ="6dp"
+            android:outlineProvider="bounds"
+            android:hardwareAccelerated="true"
+            android:background="@android:color/white" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_launcher"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/below_blue"
+            android:transitionName="search_bar"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:transitionName="titleView"
+                android:textColor="@android:color/white"
+                android:text="@string/app_title"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- Displays after loading is done -->
+    <TextView
+        android:id="@+id/text_view_above_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/circle_loading_view"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:visibility="gone"
+        android:text="@string/your_hollywood_ride"/>
+
+    <!-- Loading Dots Text View (like google hangouts) -->
+    <pl.tajchert.sample.DotsTextView
+        xmlns:dots="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dots"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"
+        dots:autoplay="false"
+        dots:period="1000"/>
+
+    <!-- Animated Circular loading View for splash screen -->
+    <com.github.jlmd.animatedcircleloadingview.AnimatedCircleLoadingView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_loading_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent"
+        android:layout_centerInParent="true"
+        app:mainColor="@color/main_color"
+        app:secondaryColor="@color/secondary_color" />
+
+
+</RelativeLayout>

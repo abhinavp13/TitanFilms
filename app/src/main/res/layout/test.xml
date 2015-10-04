@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:right_angled_triangle_custom_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:id="@+id/plot_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Genre"
+        android:textSize="16sp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/genre1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/genre_size"
+            android:visibility="visible"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/genre1_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/genre_size"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/genre1_1_image_view"
+                    android:layout_width="@dimen/genre_icon_size"
+                    android:layout_height="@dimen/genre_icon_size"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/genre1_1_text_view"
+                    android:layout_width="@dimen/genre_size"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Crime"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/genre1_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/genre_size"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/genre1_2_image_view"
+                    android:layout_width="@dimen/genre_icon_size"
+                    android:layout_height="@dimen/genre_icon_size"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/genre1_2_text_view"
+                    android:layout_width="@dimen/genre_size"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Crime"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/genre1_3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/genre_size"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/genre1_3_image_view"
+                    android:layout_width="@dimen/genre_icon_size"
+                    android:layout_height="@dimen/genre_icon_size"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/genre1_3_text_view"
+                    android:layout_width="@dimen/genre_size"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Crime"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/genre1_4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/genre_size"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/genre1_4_image_view"
+                    android:layout_width="@dimen/genre_icon_size"
+                    android:layout_height="@dimen/genre_icon_size"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/genre1_4_text_view"
+                    android:layout_width="@dimen/genre_size"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Crime"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/genre2"
+            android:layout_below="@+id/genre1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/genre_size"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/genre2_1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/genre_size"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/genre2_1_image_view"
+                    android:layout_width="@dimen/genre_icon_size"
+                    android:layout_height="@dimen/genre_icon_size"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/genre2_1_text_view"
+                    android:layout_width="@dimen/genre_size"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Crime"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/genre2_2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/genre_size"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/genre2_2_image_view"
+                    android:layout_width="@dimen/genre_icon_size"
+                    android:layout_height="@dimen/genre_icon_size"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/genre2_2_text_view"
+                    android:layout_width="@dimen/genre_size"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Crime"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/genre2_3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/genre_size"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/genre2_3_image_view"
+                    android:layout_width="@dimen/genre_icon_size"
+                    android:layout_height="@dimen/genre_icon_size"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/genre2_3_text_view"
+                    android:layout_width="@dimen/genre_size"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Crime"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/genre2_4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/genre_size"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/genre2_4_image_view"
+                    android:layout_width="@dimen/genre_icon_size"
+                    android:layout_height="@dimen/genre_icon_size"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/genre2_4_text_view"
+                    android:layout_width="@dimen/genre_size"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:text="Crime"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_purple">#6D147E</color>
+    <color name="light_purple">#9C28B1</color>
+
+    <color name="light_red">#F02D33</color>
+    <color name="dark_red">#970304</color>
+
+    <color name="blue">#0091EA</color>
+    <color name="dark_blue">#087EC9</color>
+
+    <color name="background">#65828e</color>
+    <color name="main_color">#ff9a00</color>
+    <color name="secondary_color">#BDBDBD</color>
+
+    <color name="color_pressed">#55ffffff</color>
+</resources>

@@ -1,0 +1,76 @@
+Activity Started :
+----------------
+onCreate
+    |
+onStart
+    |
+onResume (usually this is the last function)
+    |
+onPause (sometimes not always)
+    |
+onResume (sometimes not always)
+
+
+
+Screen Off / Home Button Pressed :
+--------------------------------
+onPause
+    |
+onStop
+
+
+Screen On / Activity selected back :
+----------------------------------
+onRestart
+    |
+onStart
+    |
+onResume
+
+
+BackPressed :
+-----------
+onPause
+    |
+onStop
+    |
+onDestroy
+
+
+Orientation Changed :
+-------------------
+onPause
+    |
+onStop
+    |
+onDestroy
+    |
+onCreate
+    |
+onStart
+    |
+onResume
+(may run onPause and onResume as given in Activity Started).
+
+
+Started new activity using intent without using finish() function :
+-----------------------------------------------------------------
+onPause
+    |
+onStop (called while new activity is in foreground)
+
+
+Only Finished called (finish()) :
+-------------------------------
+onPause
+    |
+onStop
+    |
+onDestroy
+
+
+
+
+
+
+
