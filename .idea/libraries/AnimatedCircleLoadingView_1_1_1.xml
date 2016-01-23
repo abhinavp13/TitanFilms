@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="AnimatedCircleLoadingView-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.jlmd/AnimatedCircleLoadingView/1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.jlmd/AnimatedCircleLoadingView/1.1.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jlmd/AnimatedCircleLoadingView/1.1.1/50ef1f9b3272aa5c6d6cbbf36cd5fba754ce8723/AnimatedCircleLoadingView-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

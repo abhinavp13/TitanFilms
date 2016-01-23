@@ -8,6 +8,14 @@ Sample Video
 ------------
 [Youtube Sample Video](https://www.youtube.com/watch?v=uCIfulrW6nM)
 
+Screenshots
+-----------
+![Demo Screenshot 8][8] ![Demo Screenshot 8][9] ![Demo Screenshot 7][7]
+![Demo Screenshot 1][1] ![Demo Screenshot 2][2] ![Demo Screenshot 3][3] 
+![Demo Screenshot 4][4] ![Demo Screenshot 5][5] ![Demo Screenshot 6][6] 
+
+
+
 Important Details
 -----------------
 1) In addition to share and offline movie saving functionality, I also added 'Genre' of movies as part of detail view. I felt that this is one of the most important thing about movie we all look into.
@@ -37,3 +45,13 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
+
+[1]: ./demoPics/2.png
+[2]: ./demoPics/3.png
+[3]: ./demoPics/4.png
+[4]: ./demoPics/5.png
+[5]: ./demoPics/6.png
+[6]: ./demoPics/7.png
+[7]: ./demoPics/8.png
+[8]: ./demoPics/animatedLogo.gif
+[9]: ./demoPics/animatedNavigationDrawer.gif
