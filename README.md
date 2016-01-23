@@ -11,8 +11,8 @@ Sample Video
 Screenshots
 -----------
 ![Demo Screenshot 8][8] ![Demo Screenshot 8][9] ![Demo Screenshot 7][7]
-![Demo Screenshot 1][1] ![Demo Screenshot 2][2] ![Demo Screenshot 3][3] 
-![Demo Screenshot 4][4] ![Demo Screenshot 5][5] ![Demo Screenshot 6][6] 
+![Demo Screenshot 1][1] ![Demo Screenshot 2][3] ![Demo Screenshot 3][2] 
+![Demo Screenshot 4][4] ![Demo Screenshot 6][6] 
 
 
 
@@ -50,7 +50,6 @@ License
 [2]: ./demoPics/3_1.png
 [3]: ./demoPics/4_1.png
 [4]: ./demoPics/5_1.png
-[5]: ./demoPics/6_1.png
 [6]: ./demoPics/7_1.png
 [7]: ./demoPics/8_1.png
 [8]: ./demoPics/animatedLogo.gif
