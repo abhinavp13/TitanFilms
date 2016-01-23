@@ -46,12 +46,12 @@ License
     limitations under the License.
 
 
-[1]: ./demoPics/2.png
-[2]: ./demoPics/3.png
-[3]: ./demoPics/4.png
-[4]: ./demoPics/5.png
-[5]: ./demoPics/6.png
-[6]: ./demoPics/7.png
-[7]: ./demoPics/8.png
+[1]: ./demoPics/2_1.png
+[2]: ./demoPics/3_1.png
+[3]: ./demoPics/4_1.png
+[4]: ./demoPics/5_1.png
+[5]: ./demoPics/6_1.png
+[6]: ./demoPics/7_1.png
+[7]: ./demoPics/8_1.png
 [8]: ./demoPics/animatedLogo.gif
 [9]: ./demoPics/animatedNavigationDrawer.gif
