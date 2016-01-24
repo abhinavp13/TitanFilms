@@ -2,7 +2,7 @@ TitanFilms
 ==========
 Google Nanodegree : Popular Movies (aka TitanFilms)
 This app showcases most popular and highest rated movies in trend.
-Also, lot of animations are used in this app, including recently introduced sharedElement activity transitions.
+Also, lot of animations are used in this app, including recently introduced sharedElement activity transitions. 
 
 Sample Video
 ------------
